@@ -1,17 +1,17 @@
-FROM node:16
+FROM ubuntu:16.04
 
-# Create app directory
-WORKDIR /usr/src/app
+RUN apt-get update -y && \
+    apt-get install -y python-pip python-dev
 
-# Bundle app source
-COPY . .
+# We copy just the requirements.txt first to leverage Docker cache
+COPY ./requirements.txt /app/requirements.txt
 
-# Install app dependencies
-RUN npm install
-# If you are building your code for production
-# RUN npm ci --only=production
+WORKDIR /app
 
+RUN pip install -r requirements.txt
 
+COPY . /app
 
-EXPOSE 8080
-CMD [ "node", "server.js" ]
+ENTRYPOINT [ "python" ]
+
+CMD [ "app.py" ]
