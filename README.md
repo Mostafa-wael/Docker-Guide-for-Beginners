@@ -1,5 +1,6 @@
-# Presentation Materials
+# Open Presentation Materials
 [![Slides](https://user-images.githubusercontent.com/56788883/140322800-a4cf9607-9d97-4291-8071-c0b381321fef.png)][1]
+
 [1]: ./Dockers.pdf
 
 
