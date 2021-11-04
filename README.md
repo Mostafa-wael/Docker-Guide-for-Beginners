@@ -1,4 +1,4 @@
-# Install docker and docker compose on your machine
+# Install Docker and Docker compose on your machine
 - Install Docker: https://docs.docker.com/engine/install/
 - Install Docker-compose: https://docs.docker.com/compose/install/
 
