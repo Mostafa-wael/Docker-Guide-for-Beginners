@@ -1,5 +1,8 @@
 # Presentation Materials
-![Slides](./Dockers.pdf)
+[![Slides](https://www.google.com/url?sa=i&url=https%3A%2F%2Fcommons.wikimedia.org%2Fwiki%2FFile%3AGoogle_Slides_logo_(2014-2020).svg&psig=AOvVaw09xLw3wZzD_Yp0bvjOea3u&ust=1636119190863000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCOivi4zp_vMCFQAAAAAdAAAAABAD)][1]
+
+[1]: ./Dockers.pdf
+
 
 # Install Docker and Docker compose on your machine
 - Install Docker: https://docs.docker.com/engine/install/
