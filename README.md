@@ -1,3 +1,14 @@
+# Install docker and docker compose on your machine
+- Install Docker: https://docs.docker.com/engine/install/
+- Install Docker-compose: https://docs.docker.com/compose/install/
+
+# Useful Notes:
+
+- If you encountered this error
+   >Got permission denied while trying to connect to the Docker daemon socket at unix:///var/run/docker.sock: Get "http://%2Fvar%2Frun%2Fdocker.sock/v1.24/images/json": dial unix /var/run/docker.sock: connect: permission denied
+
+Just type: `sudo chmod 666 /var/run/docker.sock`
+
 # Docker Commands Examples
 
 1. run hello world: `docker run hello-world`
