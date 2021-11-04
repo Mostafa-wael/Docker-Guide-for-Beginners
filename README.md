@@ -1,5 +1,5 @@
 # Presentation Materials
-![Slides](images/publicKey.png)
+![Slides](./Dockers.pdf)
 
 # Install Docker and Docker compose on your machine
 - Install Docker: https://docs.docker.com/engine/install/
