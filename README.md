@@ -13,10 +13,10 @@
 
 1. run hello world: `docker run hello-world`
 2. complex image: `docker run -it  danielkraic/asciiquarium`
-3. get images: `docker iamges`
+3. get images: `docker images`
 4. list containers: `docker ps`, `docker ps -a`, `docker container ls`
 5. container runs and close: `docker run ubuntu`, `docker  run ubuntu echo hi`
-6. check for it in the images: `docker iamges`
+6. check for it in the images: `docker images`
 7. previously run containers:  `docker ps -a`
 ---
 8. keep running: `docker run ubuntu sleep 5`
